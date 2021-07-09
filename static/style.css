@@ -1,0 +1,48 @@
+html{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.centering-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 500px;
+    padding: 11px 28px;
+    box-shadow: 0px 0px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-button{
+    font-size: 30px;
+    padding: 8px 35px;
+    color: white; 
+    background: #0288FF;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.big-button:hover{
+    cursor: pointer;
+    background: #0266DD;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 12px;
+}

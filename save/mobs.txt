@@ -1,0 +1,58 @@
+Sheep
+Cow
+Fox
+Bat
+Chicken
+Cod
+Ocelot
+Pig
+Rabbit
+Salmon
+Mooshroom
+Squid
+Tropical fish
+Turtle
+Villager
+Wandering trader
+Pufferfish
+Dolphin
+Polar bear
+Trader llama
+Llama
+Panda
+Wolf
+Bee
+Iron golem
+Spider
+Cave Spider
+Enderman
+Zombie Pigman
+Evoker
+Vindicator
+Pillager
+Ravager
+Vex
+Chicken Jockey
+Endermite
+Guardian
+Elder Guardian
+Shulker
+Skeleton Horseman
+Husk
+Stray
+Phantom
+Blaze
+Creeper
+Ghast
+Magma Cube
+Silverfish
+Skeleton
+Slime
+Spider Jockey
+Zombie
+Zombie Villager
+Drowned
+Wither Skeleton
+Witch
+Hoglin
+Piglin

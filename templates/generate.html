@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="">
+    <style>
+
+        html{
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+
+        .centering-layout{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .centering-layout{
+                flex-direction: column;
+            }
+
+            .card{
+                width: 300px;
+                padding: 10px;
+                margin-bottom: 18px;
+            }
+
+        }
+
+        #title{
+            margin-bottom: 50px;
+        }
+
+        .card{
+            /* width: 500px; */
+            padding: 11px 28px;
+            box-shadow: 0px 0px 20px;
+            border-radius: 8px;
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        .big-button{
+            font-size: 30px;
+            padding: 8px 35px;
+            color: white; 
+            background: #0288FF;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .big-button:hover{
+            cursor: pointer;
+            background: #0266DD;
+        }
+
+        footer{
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0px;
+            padding-bottom: 12px;
+        }
+
+        .level-1{
+            color: green
+        }
+
+        .level-2{
+            color: orange;
+        }
+
+        .level-3{
+            color: #ee4400;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="float: right;"><a href="">Reload</a></div>
+    <h1 id="title">Minecraft hunt 1.0</h1>
+    
+    {% if difficulty < 4 %}
+        <h2>Dificulty: <span class=" level-1 ">IZY</span></h2>
+    {%elif difficulty < 3%}
+        <h2>Dificulty: <span class=" level-2 ">MEEH</span></h2>
+    {%else %}
+        <h2>Dificulty: <span class=" level-3 ">WHAT?</span></h2>
+    {%endif%}
+
+    <div class="centering-layout">
+        <div class="card">
+            <h3>Items</h3>
+            <ul>
+                {% for item in items %}
+                    <li class=" level-{{item.level}} ">
+                        {{item.name}}({{item.level}})
+                        <input type="checkbox" name="done"/>
+                    </li>
+                {% endfor%}
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Blocks</h3>
+            <ul>
+                {% for block in blocks %}
+                    <li class=" level-{{block.level}} ">
+                        {{block.name}}({{block.level}})
+                        <input type="checkbox" name="done"/>
+                    </li>
+                {% endfor%}
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Mobs</h3>
+            <ul>
+                {% for mob in mobs %}
+                    <li class=" level-{{mob.level}} ">
+                        {{mob.name}}({{mob.level}})
+                        <input type="checkbox" name="done"/>
+                    </li>
+                {% endfor%}
+            </ul>
+        </div>
+    </div>
+    <footer>C'est Minecraft bébé</footer>
+</body>
+</html>

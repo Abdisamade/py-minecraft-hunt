@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="centering-layout">
+        <h1 id="title">Minecraft hunt 1.0</h1>
+        <div class="card">
+            <h3>Start the journey {{ user }}</h3>
+            <a href="/generate/1" style="text-decoration: none; color: inherit;"><button class="big-button">LEVEL 1</button></a>
+            <a href="/generate/2" style="text-decoration: none; color: inherit;"><button class="big-button">LEVEL 2</button></a>
+            <a href="/generate/3" style="text-decoration: none; color: inherit;"><button class="big-button">LEVEL 3</button></a>
+            <a href="/generate/4" style="text-decoration: none; color: inherit;"><button class="big-button">LEVEL NO 3</button></a>
+            <a href="/generate/0" style="text-decoration: none; color: inherit;"><button class="big-button">ANY</button></a>
+        </div>
+    </div>
+    <footer>C'est Minecraft bébé</footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+Bedrock
+Budding Amethyst‌
+Calcite‌
+Chain Command Block
+Dripstone Block‌
+Farmland
+Fire
+Glowing Obsidian‌
+Jigsaw Block
+Large Amethyst Bud‌
+Light Block‌
+Lightly Weathered Copper Block‌
+Lightly Weathered Cut Copper‌
+Lightly Weathered Cut Copper Slab‌
+Lightly Weathered Cut Copper Stairs‌
+Lightning Rod‌
+Medium Amethyst Bud‌
+Melon Stem
+Nether Reactor Core‌
+Petrified Oak Slab
+Pointed Dripstone‌
+Powder Snow‌
+Pumpkin Stem
+Redstone Wire
+Repeating Command Block
+Sculk Sensor‌
+Semi-Weathered Copper Block‌
+Semi-Weathered Cut Copper‌
+Semi-Weathered Cut Copper Slab‌
+Semi-Weathered Cut Copper Stairs‌
+Shroomlight
+Small Amethyst Bud‌
+Soul Fire
+Stonecutter (legacy)‌
+Structure Block
+Structure Void
+Trapped Chest
+Tripwire
+Tuff‌
+Waxed Copper‌
+Waxed Cut Copper‌
+Waxed Cut Copper Slab‌
+Waxed Cut Copper Stairs‌
+Waxed Lightly Weathered Copper‌
+Waxed Lightly Weathered Cut Copper‌
+Waxed Lightly Weathered Cut Copper Slab‌
+Waxed Lightly Weathered Cut Copper Stairs‌
+Waxed Semi-Weathered Copper‌
+Waxed Semi-Weathered Cut Copper‌
+Waxed Semi-Weathered Cut Copper Slab‌
+Waxed Semi-Weathered Cut Copper Stairs‌
+Weathered Copper Block‌
+Weathered Cut Copper‌
+Weathered Cut Copper Slab‌
+Weathered Cut Copper Stairs‌
+Wheat Crops
